@@ -1,0 +1,523 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> Walt Disney World Resort </title>
+    <link href="disney.css" rel="stylesheet">
+</head>
+
+<style type="text/css">
+#fundo_branco{
+    width: 940px;
+    height: 1600px;
+    background-color: rgba(255, 255, 255);
+    border-radius: 20px;
+}  
+#body{
+    background-color: rgba(37, 59, 86);
+}
+#tudo{
+padding-left: 205px;
+padding-top: 25px;
+}
+
+#titulo{
+    color: rgba(37, 59, 86);
+    font-size: 35px;
+    height: 70px;
+}
+
+#tit{
+    padding-top: 19px;
+    padding-left: 22px;
+}
+.menu{
+    width: 188px;
+    height: 53px;
+    background-color: rgba(237, 243, 250);
+    border: none;
+    font-size: 14px;
+}
+.menu2{
+    width: 186px;
+    height: 53px;
+    margin-left: -2px;
+    background-color: rgba(237, 243, 250);
+    border: none;
+    font-size: 14px;
+}
+.menu3{
+    width: 186px;
+    height: 53px;
+    margin-left: -2px;
+    background-color: rgba(237, 243, 250);
+    border: none;
+    font-size: 14px;
+}
+.menu4{
+    width: 186px;
+    height: 53px;
+    margin-left: -2px;
+    background-color: rgba(237, 243, 250);
+    border: none;
+    font-size: 14px;
+}
+.menu5{
+    width: 186px;
+    height: 53px;
+    margin-left: -2px;
+    background-color: rgba(237, 243, 250);
+    border: none;
+    font-size: 14px;
+}
+.dis{
+    width: 900px;
+    height: 326px;
+    margin-left: 20px;
+    margin-top: 20px;
+    
+}
+img{
+    border-radius: 15px;
+} 
+#topico{
+    font-size: 23px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    margin-top: -10px;
+}
+
+
+
+
+.lado1{
+    margin-left: 20px;
+    float: left;
+    font-size: 15px;
+    font-family:Arial, Helvetica, sans-serif;
+    color: rgba(37, 59, 86);
+    line-height: 1.8;  
+}
+
+.lado2{
+    float: right;
+    padding-right: 20px;
+    padding-top: 20px;
+ 
+}
+
+
+
+#foto{
+    border-radius: 0px;
+}
+#primeira_atracao{
+    display:inline-block;
+    padding-top: 3px;
+}
+
+#informacao_atracao{
+    display:inline-block;
+    padding-left: 10px;
+
+}
+#titulo_monotrilho{
+    font-size: 18px;
+    line-height: 1.0;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    
+}
+#descricao_monotrilho{
+    color: #000000;
+    font-size: 14px;
+    line-height: 1.5;
+}
+
+
+
+
+#segunda_atracao{
+    float: left;
+    margin-top: 13px;
+}
+img{
+    border-radius: 0px;
+}
+#informacao_comida{
+    float: left;
+    padding-left: 15px;
+    margin-top: -5px;
+}
+#titulo_comida{
+    font-size: 18px;
+    line-height: 2.0;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    line-height: 1.5;
+}
+
+#descricao_comida{
+    color: #000000;
+    line-height: 1.5;
+    font-size: 14px;
+    display: flex;
+
+}
+
+
+
+
+#terceira_atracao{
+    padding-top: 10px;
+}
+#informacao_espaco{
+    float: right;
+    padding-left: 15px;
+    margin-top: -5px;
+}
+#titulo_espaco{
+    font-size: 18px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    line-height: 0.6;
+}
+#descricao_espaco{
+    color: #000000;
+    font-size: 13.5px;
+}
+
+
+
+#quarta_atracao{
+    display: flex;
+}
+#informacao_lago{
+    
+    
+    padding-left: 15px;
+    margin-top: -5px;
+}
+#titulo_lago{
+    font-size: 18px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    line-height: 1.5;
+}
+#descricao_lago{
+    color: #000000;
+    font-size: 13.5px;
+    display: inline-flex;
+}
+
+
+
+
+#quarto{
+    padding-top: 10px;
+    display: flex;
+}
+
+#linha_quarto{
+   padding-top: 10px;
+}
+#titulo_quarto{
+    font-size: 18px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color: rgba(37, 59, 86);
+    padding-left: 15px;
+}
+#descricao_quarto{
+    color: #000000;
+    padding-left: 15px;
+    font-size: 14px;
+}
+#linha_endereco{
+    
+    padding-top: 5px;
+    padding-left: -10px;
+}
+#preco_quarto{
+    color: rgba(37, 59, 86);
+}
+.preco b{
+    font-size: 20px;
+}
+.preco{
+    line-height: 1.5;
+}
+.preco strong{
+    font-size: 13px;
+    padding-top: 10px;
+}
+#quarto_foto{
+    width: 175px;
+    height: 110px;
+}
+
+
+
+
+#descricao_endereco{
+    color: black;
+    font-size: 16px;
+    line-height: 1.5;
+}
+#chegar{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    line-height: 1.7;
+}
+#foto5{
+    border-radius: 0px;
+    width:175px;
+    height:98px;
+    padding-top: 10px;
+}
+#titulo_area{
+    color: rgba(37, 59, 86);
+    font-size: 18px;
+    line-height: 1.0;
+}
+#transportes{
+    font-size: 15px;
+    line-height: 1.0;
+}
+
+#opcoes_trans{
+    color: rgba(37, 59, 86);
+    font-size: 18px;
+    padding-top: 35px;
+}
+#lista{
+    line-height: 1.5;
+    padding-top: -15px;
+}
+
+
+#SELECIONAR {
+    color: rgba(37, 59, 86);
+    border-radius: 0px;
+    padding-top: 10px;
+}
+
+
+
+#difi{
+    padding-left: 20px;
+}
+.foto3{
+    border-radius: 0px;
+    padding-top: 10px;
+}
+#linha_terceira_pra_quarta{
+    width: 570px;
+}
+
+
+
+
+#banner{
+    width: 300px;
+    background-color: rgba(25, 148, 215);
+    height: 365px;
+    border-radius: 15px;
+    text-align: center;
+}
+
+#escrita{
+    color: white;
+}
+#mapa{
+    color: rgba(37, 59, 86);
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 20px;
+    
+}
+
+#rodape{
+		text-align: center;
+		background-color: #0B3861;
+		margin: 0 auto;
+		border: 1px black solid;
+		}
+</style>
+
+<body id="body">
+    <div id="tudo">
+        <div id="fundo_branco">
+            <div id="titulo">
+                <p id="tit">Disney's Polynesian Village Resort</p>
+            </div>
+            <div id="botoes">
+                <button class="menu"><strong>Visão Geral</strong></button>
+                <button class="menu2"><strong>Tarifa dos Quartos</button>
+                <button class="menu3"><strong>Restaurantes</strong></button>
+                <button class="menu4"><strong>Recreação</strong></button>
+                <button class="menu5"><strong>Comodidades</strong></button>
+            </div>
+
+
+            <!--foto principal-->
+            <div class="dis">
+                <img
+                    src="https://cdn1.parksmedia.wdprapps.disney.com/resize/mwImage/1/900/360/75/dam/wdpro-assets/places-to-stay/polynesian/polynesian-resort-00-full.jpg?1634620673141">
+            </div>
+            <br>
+            <br>
+
+
+            <!--lado 1 acima-->
+            <div class="lado1">
+                <p>Celebre o espírito do Pacífico Sul neste oásis tropical com palmeiras,<br>
+                    vegetação exuberante e muito, muito mais. De noites enluaradas envolventes<br>
+                    no ambiente tropical ao ar livre, aos sabores exóticos dos nossos restaurantes<br>
+                    de categoria internacional, descubra o ambiente tropical exclusivo, que faz do<br> Disney's
+                    Polynesian Village Resort um dos destinos favoritos na Disney desde<br> 1971.
+                </p>
+                <p id="topico">O que torna este hotel unico</p>
+                <hr id="linha">
+                <div id="primeira_atracao">
+                    <img id="foto"
+                        src="https://cdn1.parksmedia.wdprapps.disney.com/resize/mwImage/1/170/96/75/dam/wdpro-assets/help/guest-services/monorail-transportation/monorail-transportation-00.jpg?1637704209550">
+                </div>
+                <div id="informacao_atracao">
+                    <p id="titulo_monotrilho">Monotrilho Do Resort </p>
+                    <div id="descricao_monotrilho">O Disney's Polynesian Village Resort tem acesso fácil ao<br>
+                        Magic Kingdom Park e está apenas um transfer do<br>
+                        EPCOT.</div>
+                </div>
+                <hr>
+                
+                
+                <div id="segunda_atracao">
+                    <img class="foto"src="https://cdn1.parksmedia.wdprapps.disney.com/resize/mwImage/1/170/96/75/dam/wdpro-assets/places-to-stay/polynesian-villas-bungalows/kona-cafe-16x9.jpg?1634620673127">
+                </div>
+                <div id="informacao_comida">
+                    <p id="titulo_comida">Experimente os suculentos sabores das Ilhas</p>
+                    <p id="descricao_comida">
+                        Prove a magia da culinária das ilhas no Disney's<br> Polynesian Village Resort.<br>
+                        Pratos: </p>
+                                <ul>
+                                <li>OHANA: 59,99 USD</li>
+                                <li>TRADER SAM'S TIKI TERRACE: 14,99 USD</li>
+                                <li>CAPT.COOK'S: 14,99 USD</li>
+                                </ul> 
+                        
+                </div>
+                <br>
+                <br>
+                <br>
+                <br>
+                
+
+
+
+                <div id="terceira_atracao">
+                    <hr id="difi">      
+                    <img id="foto5" src="https://cdn1.parksmedia.wdprapps.disney.com/resize/mwImage/1/640/360/75/dam/wdpro-assets/gallery/polynesian/overview/polynesian-resort-gallery04.jpg?1615318561824">
+                       
+                    <div id="informacao_espaco">
+                       <p id="titulo_espaco">Disney's Polynesian Deluxe</p> 
+                       <p id="descricao_espaco">
+                        O Disney's Polynesian Resort ocupa a categoria de resort <br>
+                         deluxe. Com quartos de $633.38 USD ate $3.295.13 USD, que<br>
+                        oferecem excelente estadia e conforto!</p>
+                    
+                    </div>
+                </div>
+                <hr id="linha_terceira_pra_quarta">
+                
+                
+                <div id="quarta_atracao">
+                    <img class="foto3" src="https://cdn1.parksmedia.wdprapps.disney.com/resize/mwImage/1/170/96/75/dam/disney-world/recreation/seven-seas-lagoon/seven-seas-lagoon-dragon-16x9.jpg?1637704209565">
+                    <div id="informacao_lago">
+                        <p id="titulo_lago">Seven Seas Lagoon</p> 
+                        <p id="descricao_lago">
+                            Divirta-se pescando, navegando e muito mais nessa lagoa<br>
+                            histórica bem em frente ao Magic Kingdom Park
+                         </p>
+                     </div>
+                </div>
+                    <div id="linha_quarto">
+                        <hr>
+                    </div>
+
+                <div id="quarto">
+                        <img id="quarto_foto" src="https://cdn1.parksmedia.wdprapps.disney.com/resize/mwImage/1/170/96/75/dam/disney-world/resorts/polynesian-resort/room-rates/room-pc-g00.jpg?1614960103199">
+                    <div id="informacao_quarto">  
+                        <div id="titulo_quarto">Vista do Parque Temático</div>
+                        <div id="descricao_quarto"><ul><li>Vistas do Magic Kingdom Park e da Seven Seas</li>
+                                                       <li>2 camas queen e 1 sofá-cama</li>
+                                                       <li>Acomoda até 5 clientes</li>
+                                                    </ul>    
+                                                       
+                                                                        
+                        </div>
+                    </div>  
+                </div>
+                
+            </div>
+            
+            
+            
+            
+            
+            
+            <div class="lado2">
+                <!--lado 2 oferta-->
+               
+                <p id="mapa">Mapa</p>
+                    <iframe
+                        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3509.4669809510615!2d-81.58543108492252!3d28.405162882508066!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x88dd7e19169ceacb%3A0x11d5182c68b0f632!2sDisney&#39;s%20Polynesian%20Village%20Resort!5e0!3m2!1spt-BR!2sbr!4v1637986300650!5m2!1spt-BR!2sbr"
+                        width="295" height="250" style="border:0;" allowfullscreen="50%" loading="lazy"></iframe>
+                    <br>
+                    
+                    <p id="descricao_endereco">1600 Seven Seas Drive<br>
+                        Lake Buena Vista, Flórida 8423-32830<br>
+                        (407) 824-2000</p>
+                    
+                        <hr>
+                        <div id="transportes">
+                            <p id="titulo_area">Área do resort</p>
+                            Área de Resort do Magic Kingdom
+                            <br>
+                            <p id="opcoes_trans">Opções de transporte</p>
+                            <ul id="lista">
+                                <li>Transporte por monotrilho da Disney</li>
+                                <li>Transporte aquático na Disney</li>
+                                <li>Transporte por ônibus Disney</li>
+                                <li>Serviço Disney's Magical Express</li>
+                            </ul>
+                        </div>
+                        <br>
+                            <div id="linha_endereco">
+                                <hr>
+                            </div>
+                        <div id="preco_quarto">
+                            <div id="SELECIONAR"> 
+                               
+                               <button id = "SELECIONAR"> SELECIONAR A DATA PARA ORÇAMENTO 2022</button>
+                            </div>
+                            <p class="preco">A partir de <b>$897.75 USD</b> por noite <br>
+                                             A partir de <b>R$5.113,23 BR</b> por noite<br>
+                                             
+                                             <strong>Por noite, impostos da Flórida aplicáveis incluídos</strong></p>
+                                             
+
+
+                        </div>
+                    </div>
+                </div>
+                <br>
+                <br>
+                
+            </div>
+        </div>
+
+    </div>
+
+    <div id="rodape">
+	<p><strong>
+Ligações para a Disney de fora dos Estados Unidos estão sujeitas a tarifas internacionais</strong></p>
+	</div>
+</body>
+
+</html>
